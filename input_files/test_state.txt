@@ -1,0 +1,27 @@
+Name = State:test
+Duration = 1 days-2 days
+Directives = GoTo(x=123,y=89,alt=0)
+Speed = 23
+
+Name = State:test2
+Duration = 4hrs
+Directives = GoTo(location=Runway)
+Speed = 10
+
+Name = State:test3
+Require_Tags = testing,one
+Banned_Tags = production
+Duration = 1Days-2 Days
+Yields = successful test + 1; split test = 10
+Cost = None
+PoolRestrictions = None
+TimeFreq = 1-2,3d-4d
+On_Start_Message = Test has began.
+On_Entrance_Message = Activated.
+On_Exit_Message = Test has ended.
+On_Hibernate_Message = Deactivated.
+Concurrent = True
+onmeta_tags = testingon, one-on
+offmeta_tags = testingoff,one-off
+tags = s1
+this should throw a warning

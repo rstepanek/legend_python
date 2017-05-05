@@ -1,0 +1,4 @@
+time	event	number
+1	Spawn(entity=test_tank,location=Hangar)	1
+3	Spawn(entity=test_tank,location=Runway)	2
+2017-05-05 17:23:00	Spawn(entity=test_tank,location=Military Airport)	1

@@ -1,0 +1,35 @@
+Supported events are 
+
+Spawn
+spawn a unit at a given point
+entity - The type of unit to spawn
+x - lon (decimal degrees)
+y - lat (decimal degrees)
+alt - altitude
+location - a series of tags by which to find a site to spawn the entity i.e. Military Airport
+specifying an x,y will override any location argument
+
+
+InitializeState
+Places an entity into its first state as determined by its process graph,
+instantiates the process tree for the entity
+
+StateChange
+Make an entity transition state, updating the speed and properties as needed.
+
+GoTo
+Make the entity move to a location
+
+x, y [alt] - specify a set of coords to move the entity towards
+location - a series of tags by which to find a site to travel i.e. Military Airport
+
+An entity will continue traveling towards its destination until it arrives or is assigned a new destination.
+Entities update their speed and, consequently, their travel time based on the speed allowed for the state
+
+Arrival
+Thrown when an entity is no longer in transit - it has arrived at its destination.
+In the future, this will throw a message to entity to allow state changes to key off of arrivals
+
+VelocityChange
+An internal event that alerts the geometry system to update an entity's time till arrival. 
+This event will gain additional relevance when targetting and tracking systems are implemented.
