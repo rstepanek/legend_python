@@ -54,12 +54,12 @@ class log:
         payload = {'key1':'value1','key2':'value2'}
         
         try:
-            d = {'x':event.source.x,'y':event.source.y,'id':event.source.ID,'name':event.source.name,
-            'process':event.source.process.name,'state':event.source.state.name}
+            d = {'x':float(event.source.x),'y':float(event.source.y),'id':int(event.source.ID),'name':str(event.source.name),
+            'process':str(event.source.process.name),'state':str(event.source.state.name)}
             r = requests.post(log.server_uri,data=d)#event.source.__dict__)#data=event.__dict__)
-            print(r)
-            print(r.status_code,r.reason)
-            print(r.text)
+            #print(r)
+            #print(r.status_code,r.reason)
+            #print(r.text)
         except: pass
 
     @staticmethod
