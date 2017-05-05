@@ -94,7 +94,6 @@ class Process_System(Actor):
         if recalc_tta: self.alert_recalc_TTA(event)
 
         #self.process_directives(event)
-        ###Put code to turn directives into events here
         ###GoTo directive gets added to the stack and passed to the geometry system when processed
         ##The geometry system will calculate TTA and schedule an arrival event
         ##in addition, the geometry system tracks the original arrival events so that
