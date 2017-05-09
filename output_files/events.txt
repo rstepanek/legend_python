@@ -1,175 +1,221 @@
 SimStart	1	{'': ''}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63219330400224, 'y': 64.83157608372035, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63387396139927, 'y': 64.83129534940758, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.6319851127412, 'y': 64.83170801530642, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.633951024948, 'y': 64.83157984233675, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63241119286215, 'y': 64.83140179429175, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.6323341332715, 'y': 64.83162276375225, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.6330191868189, 'y': 64.83165969115984, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63169942153587, 'y': 64.8317009023352, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63378696641772, 'y': 64.83176043520412, 'alt': 0}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.6326035030232, 'y': 64.83168429123857, 'alt': 0}	SYSTEM
-InitializeState	1	{'': ''}	test_tank:2	Process:test	State:test	-147.63219330400224	64.83157608372035	0
-InitializeState	1	{'': ''}	test_tank:3	Process:test	State:test	-147.63387396139927	64.83129534940758	0
-InitializeState	1	{'': ''}	test_tank:4	Process:test	State:test2	-147.6319851127412	64.83170801530642	0
-InitializeState	1	{'': ''}	test_tank:5	Process:test	State:test	-147.633951024948	64.83157984233675	0
-InitializeState	1	{'': ''}	test_tank:6	Process:test	State:test	-147.63241119286215	64.83140179429175	0
-InitializeState	1	{'': ''}	test_tank:7	Process:test	State:test	-147.6323341332715	64.83162276375225	0
-InitializeState	1	{'': ''}	test_tank:8	Process:test	State:test	-147.6330191868189	64.83165969115984	0
-InitializeState	1	{'': ''}	test_tank:9	Process:test	State:test	-147.63169942153587	64.8317009023352	0
-InitializeState	1	{'': ''}	test_tank:10	Process:test	State:test2	-147.63378696641772	64.83176043520412	0
-InitializeState	1	{'': ''}	test_tank:11	Process:test	State:test	-147.6326035030232	64.83168429123857	0
-Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.58785976092312, 'y': 64.83803730836374, 'alt': 0}	SYSTEM
-Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.5963137702205, 'y': 64.8377316389357, 'alt': 0}	SYSTEM
-InitializeState	3	{'': ''}	test_tank:12	Process:test	State:test	-147.58785976092312	64.83803730836374	0
-InitializeState	3	{'': ''}	test_tank:13	Process:test	State:test	-147.5963137702205	64.8377316389357	0
-Spawn	120000	{'entity': 'test_tank', 'location': 'Military Airport', 'x': -147.59723482770087, 'y': 64.83737900194286, 'alt': 0}	SYSTEM
-InitializeState	120000	{'': ''}	test_tank:14	Process:test	State:test	-147.59723482770087	64.83737900194286	0
-StateChange	14400001	{'': ''}	test_tank:4	Process:test	State:test3	-147.6319851127412	64.83170801530642	0
-StateChange	14400001	{'': ''}	test_tank:10	Process:test	State:test3	-147.63378696641772	64.83176043520412	0
-StateChange	19106568	{'': ''}	test_tank:10	Process:test	GoToRefuel	-147.63378696641772	64.83176043520412	0
-Arrival	19520727	{'location': 'refuel'}	test_tank:10	Process:test	GoToRefuel	-147.629097700402	64.83984341136109	0
-StateChange	20182761	{'': ''}	test_tank:4	Process:test	GoToRefuel	-147.6319851127412	64.83170801530642	0
-Arrival	20584328	{'location': 'refuel'}	test_tank:4	Process:test	GoToRefuel	-147.62971934685092	64.83972247773089	0
-StateChange	21589358	{'': ''}	test_tank:10	Process:test	State:test2	-147.629097700402	64.83984341136109	0
-Arrival	22100549	{'location': 'Runway'}	test_tank:10	Process:test	State:test2	-147.5996213650631	64.83739088519394	0
-StateChange	22526948	{'': ''}	test_tank:4	Process:test	State:test2	-147.62971934685092	64.83972247773089	0
-Arrival	23089520	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.5969005528784	64.83804629454927	0
-StateChange	35989358	{'': ''}	test_tank:10	Process:test	State:test	-147.5996213650631	64.83739088519394	0
-StateChange	36926948	{'': ''}	test_tank:4	Process:test	State:test3	-147.5969005528784	64.83804629454927	0
-StateChange	41314424	{'': ''}	test_tank:4	Process:test	GoToRefuel	-147.5969005528784	64.83804629454927	0
-Arrival	42010237	{'location': 'refuel'}	test_tank:4	Process:test	GoToRefuel	-147.62970298347014	64.83910860542683	0
-StateChange	43637155	{'': ''}	test_tank:4	Process:test	State:test2	-147.62970298347014	64.83910860542683	0
-Arrival	44164287	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.59892350743172	64.83764321400015	0
-StateChange	58037155	{'': ''}	test_tank:4	Process:test	State:test	-147.59892350743172	64.83764321400015	0
-StateChange	88812438	{'': ''}	test_tank:5	Process:test	State:test2	-147.633951024948	64.83157984233675	0
-Arrival	89426884	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.6009949458376	64.83784236698372	0
-StateChange	92135788	{'': ''}	test_tank:3	Process:test	State:test2	-147.63387396139927	64.83129534940758	0
-Arrival	92764619	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.60023267540004	64.83778583082314	0
-StateChange	99752771	{'': ''}	test_tank:14	Process:test	State:test2	-147.59723482770087	64.83737900194286	0
-Arrival	99913733	{'location': 'Runway'}	test_tank:14	Process:test	State:test2	-147.58803089663348	64.83830331544804	0
-StateChange	103212438	{'': ''}	test_tank:5	Process:test	State:test3	-147.6009949458376	64.83784236698372	0
-StateChange	106535788	{'': ''}	test_tank:3	Process:test	State:test	-147.60023267540004	64.83778583082314	0
-StateChange	108489497	{'': ''}	test_tank:5	Process:test	GoToRefuel	-147.6009949458376	64.83784236698372	0
-Arrival	109101150	{'location': 'refuel'}	test_tank:5	Process:test	GoToRefuel	-147.6295896273445	64.83967759349397	0
-StateChange	110328498	{'': ''}	test_tank:5	Process:test	State:test2	-147.6295896273445	64.83967759349397	0
-StateChange	110895430	{'': ''}	test_tank:7	Process:test	State:test2	-147.6323341332715	64.83162276375225	0
-Arrival	110915713	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.5956092617734	64.83713620638719	0
-StateChange	111072842	{'': ''}	test_tank:11	Process:test	State:test2	-147.6326035030232	64.83168429123857	0
-Arrival	111645685	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.5906146884069	64.83766832859929	0
-Arrival	111865642	{'location': 'Runway'}	test_tank:11	Process:test	State:test2	-147.58863353887557	64.83821537038368	0
-StateChange	112639168	{'': ''}	test_tank:6	Process:test	State:test2	-147.63241119286215	64.83140179429175	0
-Arrival	113331008	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.5947177572189	64.8378663242942	0
-StateChange	114152771	{'': ''}	test_tank:14	Process:test	State:test3	-147.58803089663348	64.83830331544804	0
-StateChange	115137917	{'': ''}	test_tank:8	Process:test	State:test2	-147.6330191868189	64.83165969115984	0
-Arrival	115924302	{'location': 'Runway'}	test_tank:8	Process:test	State:test2	-147.5896056454988	64.83837732666694	0
-StateChange	120553108	{'': ''}	test_tank:14	Process:test	GoToRefuel	-147.58803089663348	64.83830331544804	0
-Arrival	121437810	{'location': 'refuel'}	test_tank:14	Process:test	GoToRefuel	-147.62976010090853	64.8395278007226	0
-StateChange	122369756	{'': ''}	test_tank:13	Process:test	State:test2	-147.5963137702205	64.8377316389357	0
-Arrival	122458474	{'location': 'Runway'}	test_tank:13	Process:test	State:test2	-147.59140628157334	64.83847878607372	0
-StateChange	122674396	{'': ''}	test_tank:14	Process:test	State:test2	-147.62976010090853	64.8395278007226	0
-Arrival	123313335	{'location': 'Runway'}	test_tank:14	Process:test	State:test2	-147.5923696423811	64.83809649716012	0
-StateChange	124728498	{'': ''}	test_tank:5	Process:test	State:test3	-147.5956092617734	64.83713620638719	0
-StateChange	125295430	{'': ''}	test_tank:7	Process:test	State:test3	-147.5906146884069	64.83766832859929	0
-StateChange	125472842	{'': ''}	test_tank:11	Process:test	State:test3	-147.58863353887557	64.83821537038368	0
-StateChange	127039168	{'': ''}	test_tank:6	Process:test	State:test	-147.5947177572189	64.8378663242942	0
-StateChange	129360201	{'': ''}	test_tank:7	Process:test	GoToRefuel	-147.5906146884069	64.83766832859929	0
-StateChange	129537917	{'': ''}	test_tank:8	Process:test	State:test	-147.5896056454988	64.83837732666694	0
-Arrival	130192364	{'location': 'refuel'}	test_tank:7	Process:test	GoToRefuel	-147.6297345852098	64.83945095207223	0
-StateChange	131074745	{'': ''}	test_tank:11	Process:test	GoToRefuel	-147.58863353887557	64.83821537038368	0
-StateChange	131548930	{'': ''}	test_tank:5	Process:test	GoToRefuel	-147.5956092617734	64.83713620638719	0
-StateChange	131587719	{'': ''}	test_tank:7	Process:test	State:test2	-147.6297345852098	64.83945095207223	0
-Arrival	131949817	{'location': 'refuel'}	test_tank:11	Process:test	GoToRefuel	-147.62979905325068	64.83997664959814	0
-Arrival	132110724	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.5992379322858	64.83784499208964	0
-Arrival	132277170	{'location': 'refuel'}	test_tank:5	Process:test	GoToRefuel	-147.6294659309347	64.83979748229348	0
-StateChange	133226565	{'': ''}	test_tank:11	Process:test	State:test2	-147.62979905325068	64.83997664959814	0
-StateChange	133749348	{'': ''}	test_tank:5	Process:test	State:test2	-147.6294659309347	64.83979748229348	0
-Arrival	133835111	{'location': 'Runway'}	test_tank:11	Process:test	State:test2	-147.59459318405703	64.83732097987283	0
-Arrival	134257101	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.59984333943572	64.83829023709632	0
-StateChange	136769756	{'': ''}	test_tank:13	Process:test	State:test	-147.59140628157334	64.83847878607372	0
-StateChange	137074396	{'': ''}	test_tank:14	Process:test	State:test	-147.5923696423811	64.83809649716012	0
-StateChange	137904481	{'': ''}	test_tank:12	Process:test	State:test2	-147.58785976092312	64.83803730836374	0
-Arrival	138113222	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.60009394996274	64.8376712611921	0
-StateChange	145987719	{'': ''}	test_tank:7	Process:test	State:test3	-147.5992379322858	64.83784499208964	0
-StateChange	147626565	{'': ''}	test_tank:11	Process:test	State:test3	-147.59459318405703	64.83732097987283	0
-StateChange	148149348	{'': ''}	test_tank:5	Process:test	State:test3	-147.59984333943572	64.83829023709632	0
-StateChange	150236172	{'': ''}	test_tank:7	Process:test	State:test2	-147.5992379322858	64.83784499208964	0
-Arrival	150277840	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.59679101453213	64.83781142990718	0
-StateChange	151098100	{'': ''}	test_tank:9	Process:test	State:test2	-147.63169942153587	64.8317009023352	0
-StateChange	151681518	{'': ''}	test_tank:11	Process:test	GoToRefuel	-147.59459318405703	64.83732097987283	0
-Arrival	151828797	{'location': 'Runway'}	test_tank:9	Process:test	State:test2	-147.59126210582266	64.83782653013976	0
-StateChange	152304481	{'': ''}	test_tank:12	Process:test	State:test3	-147.60009394996274	64.8376712611921	0
-Arrival	152428219	{'location': 'refuel'}	test_tank:11	Process:test	GoToRefuel	-147.62962939503007	64.8391626404491	0
-StateChange	153138349	{'': ''}	test_tank:5	Process:test	GoToRefuel	-147.59984333943572	64.83829023709632	0
-Arrival	153765601	{'location': 'refuel'}	test_tank:5	Process:test	GoToRefuel	-147.62936664026407	64.83948288904324	0
-StateChange	154277985	{'': ''}	test_tank:11	Process:test	State:test2	-147.62962939503007	64.8391626404491	0
-Arrival	154884503	{'location': 'Runway'}	test_tank:11	Process:test	State:test2	-147.59410394008407	64.83796794164938	0
-StateChange	155118499	{'': ''}	test_tank:5	Process:test	State:test2	-147.62936664026407	64.83948288904324	0
-Arrival	155786926	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.59022407066084	64.83811657603522	0
-StateChange	156154007	{'': ''}	test_tank:12	Process:test	GoToRefuel	-147.60009394996274	64.8376712611921	0
-Arrival	156789014	{'location': 'refuel'}	test_tank:12	Process:test	GoToRefuel	-147.62972514149965	64.8397260101198	0
-StateChange	158270641	{'': ''}	test_tank:12	Process:test	State:test2	-147.62972514149965	64.8397260101198	0
-Arrival	158767331	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.60106615849986	64.83738441089065	0
-StateChange	164636172	{'': ''}	test_tank:7	Process:test	State:test	-147.59679101453213	64.83781142990718	0
-StateChange	165498100	{'': ''}	test_tank:9	Process:test	State:test3	-147.59126210582266	64.83782653013976	0
-StateChange	168677985	{'': ''}	test_tank:11	Process:test	State:test3	-147.59410394008407	64.83796794164938	0
-StateChange	169518499	{'': ''}	test_tank:5	Process:test	State:test	-147.59022407066084	64.83811657603522	0
-StateChange	171234347	{'': ''}	test_tank:9	Process:test	GoToRefuel	-147.59126210582266	64.83782653013976	0
-Arrival	172033648	{'location': 'refuel'}	test_tank:9	Process:test	GoToRefuel	-147.62892494968568	64.83914425189155	0
-StateChange	172582456	{'': ''}	test_tank:2	Process:test	State:test2	-147.63219330400224	64.83157608372035	0
-StateChange	172670641	{'': ''}	test_tank:12	Process:test	State:test	-147.60106615849986	64.83738441089065	0
-Arrival	173317302	{'location': 'Runway'}	test_tank:2	Process:test	State:test2	-147.5911982672481	64.83732917222544	0
-StateChange	173718335	{'': ''}	test_tank:9	Process:test	State:test2	-147.62892494968568	64.83914425189155	0
-Arrival	174256278	{'location': 'Runway'}	test_tank:9	Process:test	State:test2	-147.5975613234761	64.83747998288015	0
-StateChange	175003202	{'': ''}	test_tank:11	Process:test	GoToRefuel	-147.59410394008407	64.83796794164938	0
-Arrival	175755516	{'location': 'refuel'}	test_tank:11	Process:test	GoToRefuel	-147.62957542821215	64.83908511981846	0
-StateChange	177094560	{'': ''}	test_tank:11	Process:test	State:test2	-147.62957542821215	64.83908511981846	0
-Arrival	177694518	{'location': 'Runway'}	test_tank:11	Process:test	State:test2	-147.59457644803527	64.83729788259905	0
-StateChange	183394440	{'': ''}	test_tank:4	Process:test	State:test2	-147.59892350743172	64.83764321400015	0
-Arrival	183449134	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.59571958963326	64.83774882878903	0
-StateChange	184255272	{'': ''}	test_tank:10	Process:test	State:test2	-147.5996213650631	64.83739088519394	0
-Arrival	184458486	{'location': 'Runway'}	test_tank:10	Process:test	State:test2	-147.58769841110177	64.83765831461248	0
-StateChange	186982456	{'': ''}	test_tank:2	Process:test	State:test	-147.5911982672481	64.83732917222544	0
-StateChange	188118335	{'': ''}	test_tank:9	Process:test	State:test3	-147.5975613234761	64.83747998288015	0
-StateChange	191494560	{'': ''}	test_tank:11	Process:test	State:test	-147.59457644803527	64.83729788259905	0
-StateChange	191802421	{'': ''}	test_tank:9	Process:test	GoToRefuel	-147.5975613234761	64.83747998288015	0
-Arrival	192466756	{'location': 'refuel'}	test_tank:9	Process:test	GoToRefuel	-147.62869466414134	64.83924519431078	0
-StateChange	193979130	{'': ''}	test_tank:9	Process:test	State:test2	-147.62869466414134	64.83924519431078	0
-Arrival	194493264	{'location': 'Runway'}	test_tank:9	Process:test	State:test2	-147.59877385708793	64.83747796265266	0
-StateChange	197794440	{'': ''}	test_tank:4	Process:test	State:test	-147.59571958963326	64.83774882878903	0
-StateChange	198655272	{'': ''}	test_tank:10	Process:test	State:test3	-147.58769841110177	64.83765831461248	0
-VelocityChange	198655272	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:10	Process:test	State:test3	20.541818427674205	1.8342978583400742	0
-StateChange	202626946	{'': ''}	test_tank:10	Process:test	GoToRefuel	20.541818427674205	1.8342978583400742	0
-StateChange	204903684	{'': ''}	test_tank:10	Process:test	State:test2	20.541818427674205	1.8342978583400742	0
-StateChange	208379130	{'': ''}	test_tank:9	Process:test	State:test	-147.59877385708793	64.83747796265266	0
-StateChange	214705684	{'': ''}	test_tank:3	Process:test	State:test2	-147.60023267540004	64.83778583082314	0
-Arrival	214825689	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.5933686395698	64.83710054065801	0
-StateChange	219303684	{'': ''}	test_tank:10	Process:test	State:test3	20.541818427674205	1.8342978583400742	0
-VelocityChange	219303684	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:10	Process:test	State:test3	7.778170902251335	6.617233662242672	0
-StateChange	223829540	{'': ''}	test_tank:10	Process:test	GoToRefuel	7.778170902251335	6.617233662242672	0
-StateChange	224605721	{'': ''}	test_tank:14	Process:test	State:test2	-147.5923696423811	64.83809649716012	0
-Arrival	224640165	{'location': 'Runway'}	test_tank:14	Process:test	State:test2	-147.5903507650004	64.83803673663644	0
-StateChange	226459895	{'': ''}	test_tank:10	Process:test	State:test2	7.778170902251335	6.617233662242672	0
-StateChange	229105684	{'': ''}	test_tank:3	Process:test	State:test3	-147.5933686395698	64.83710054065801	0
-VelocityChange	229105684	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:3	Process:test	State:test3	52.9330442159703	4.7267079452011345	0
-StateChange	233841484	{'': ''}	test_tank:3	Process:test	GoToRefuel	52.9330442159703	4.7267079452011345	0
-StateChange	236361641	{'': ''}	test_tank:3	Process:test	State:test2	52.9330442159703	4.7267079452011345	0
-StateChange	239005721	{'': ''}	test_tank:14	Process:test	State:test3	-147.5903507650004	64.83803673663644	0
-VelocityChange	239005721	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:14	Process:test	State:test3	64.48974670396301	5.758516097560421	0
-StateChange	240859895	{'': ''}	test_tank:10	Process:test	State:test3	7.778170902251335	6.617233662242672	0
-VelocityChange	240859895	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:10	Process:test	State:test3	8.747130435451284	6.2541343808935315	0
-StateChange	241360010	{'': ''}	test_tank:6	Process:test	State:test2	-147.5947177572189	64.8378663242942	0
-Arrival	241459666	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.58888935775624	64.83762837476071	0
-StateChange	243423646	{'': ''}	test_tank:14	Process:test	GoToRefuel	64.48974670396301	5.758516097560421	0
-StateChange	245278149	{'': ''}	test_tank:10	Process:test	GoToRefuel	8.747130435451284	6.2541343808935315	0
-StateChange	245439416	{'': ''}	test_tank:14	Process:test	State:test2	64.48974670396301	5.758516097560421	0
-StateChange	247366894	{'': ''}	test_tank:10	Process:test	State:test2	8.747130435451284	6.2541343808935315	0
-StateChange	250761641	{'': ''}	test_tank:3	Process:test	State:test3	52.9330442159703	4.7267079452011345	0
-VelocityChange	250761641	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:3	Process:test	State:test3	13.706386402745427	16.48540729948148	0
-StateChange	255760010	{'': ''}	test_tank:6	Process:test	State:test2	-147.58888935775624	64.83762837476071	0
-Arrival	255800928	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.59110098346	64.83802917597251	0
-StateChange	255852755	{'': ''}	test_tank:7	Process:test	State:test2	-147.59679101453213	64.83781142990718	0
-Arrival	255947599	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.591225648598	64.83769161450581	0
-StateChange	256782332	{'': ''}	test_tank:3	Process:test	GoToRefuel	13.706386402745427	16.48540729948148	0
-StateChange	259224271	{'': ''}	test_tank:3	Process:test	State:test2	13.706386402745427	16.48540729948148	0
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63428200443892, 'y': 64.831781759129, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63210198851138, 'y': 64.83148608513018, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63444673696824, 'y': 64.83153511384671, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63342052917255, 'y': 64.83116749599694, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63301396826927, 'y': 64.83134400703906, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63300041743636, 'y': 64.83138322090188, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63453862202493, 'y': 64.83122284324547, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63425514899615, 'y': 64.8315576465464, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63301584352152, 'y': 64.83145873118424, 'alt': 0}	SYSTEM
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63337078694713, 'y': 64.8314704497323, 'alt': 0}	SYSTEM
+InitializeState	1	{'': ''}	test_tank:2	Process:test	State:test2	-147.63428200443892	64.831781759129	0
+InitializeState	1	{'': ''}	test_tank:3	Process:test	State:test	-147.63210198851138	64.83148608513018	0
+InitializeState	1	{'': ''}	test_tank:4	Process:test	State:test	-147.63444673696824	64.83153511384671	0
+InitializeState	1	{'': ''}	test_tank:5	Process:test	State:test2	-147.63342052917255	64.83116749599694	0
+InitializeState	1	{'': ''}	test_tank:6	Process:test	State:test	-147.63301396826927	64.83134400703906	0
+InitializeState	1	{'': ''}	test_tank:7	Process:test	State:test	-147.63300041743636	64.83138322090188	0
+InitializeState	1	{'': ''}	test_tank:8	Process:test	State:test	-147.63453862202493	64.83122284324547	0
+InitializeState	1	{'': ''}	test_tank:9	Process:test	State:test	-147.63425514899615	64.8315576465464	0
+InitializeState	1	{'': ''}	test_tank:10	Process:test	State:test	-147.63301584352152	64.83145873118424	0
+InitializeState	1	{'': ''}	test_tank:11	Process:test	State:test	-147.63337078694713	64.8314704497323	0
+Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.59840901454527, 'y': 64.83746943078157, 'alt': 0}	SYSTEM
+Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.60091632168687, 'y': 64.83807761307528, 'alt': 0}	SYSTEM
+InitializeState	3	{'': ''}	test_tank:12	Process:test	State:test2	-147.59840901454527	64.83746943078157	0
+InitializeState	3	{'': ''}	test_tank:13	Process:test	State:test2	-147.60091632168687	64.83807761307528	0
+Spawn	120000	{'entity': 'test_tank', 'location': 'Military Airport', 'x': -147.594058464086, 'y': 64.83813532282115, 'alt': 0}	SYSTEM
+InitializeState	120000	{'': ''}	test_tank:14	Process:test	State:test	-147.594058464086	64.83813532282115	0
+StateChange	14400001	{'': ''}	test_tank:5	Process:test	State:test3	-147.63342052917255	64.83116749599694	0
+StateChange	14400001	{'': ''}	test_tank:2	Process:test	State:test3	-147.63428200443892	64.831781759129	0
+StateChange	14400003	{'': ''}	test_tank:12	Process:test	State:test	-147.59840901454527	64.83746943078157	0
+StateChange	14400003	{'': ''}	test_tank:13	Process:test	State:test	-147.60091632168687	64.83807761307528	0
+StateChange	20211895	{'': ''}	test_tank:2	Process:test	GoToRefuel	-147.63428200443892	64.831781759129	0
+Arrival	20612091	{'location': 'refuel'}	test_tank:2	Process:test	GoToRefuel	-147.6288461347102	64.8394871634445	0
+StateChange	20702154	{'': ''}	test_tank:5	Process:test	GoToRefuel	-147.63342052917255	64.83116749599694	0
+Arrival	21128319	{'location': 'refuel'}	test_tank:5	Process:test	GoToRefuel	-147.62882719808414	64.83950848364216	0
+StateChange	22701801	{'': ''}	test_tank:2	Process:test	State:test2	-147.6288461347102	64.8394871634445	0
+StateChange	23010177	{'': ''}	test_tank:5	Process:test	State:test2	-147.62882719808414	64.83950848364216	0
+Arrival	23375104	{'location': 'Runway'}	test_tank:2	Process:test	State:test2	-147.58951601238738	64.83767474718005	0
+Arrival	23497398	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.6003875121977	64.83811716818992	0
+StateChange	37101801	{'': ''}	test_tank:2	Process:test	State:test	-147.58951601238738	64.83767474718005	0
+StateChange	37410177	{'': ''}	test_tank:5	Process:test	State:test3	-147.6003875121977	64.83811716818992	0
+StateChange	42543076	{'': ''}	test_tank:5	Process:test	GoToRefuel	-147.6003875121977	64.83811716818992	0
+Arrival	43167505	{'location': 'refuel'}	test_tank:5	Process:test	GoToRefuel	-147.62967118027223	64.8397116725914	0
+StateChange	45087327	{'': ''}	test_tank:5	Process:test	State:test2	-147.62967118027223	64.8397116725914	0
+Arrival	45608282	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.599243167227	64.83829613504693	0
+StateChange	59487327	{'': ''}	test_tank:5	Process:test	State:test	-147.599243167227	64.83829613504693	0
+StateChange	95598567	{'': ''}	test_tank:4	Process:test	State:test2	-147.63444673696824	64.83153511384671	0
+StateChange	96364016	{'': ''}	test_tank:7	Process:test	State:test2	-147.63300041743636	64.83138322090188	0
+Arrival	96380631	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.59144228004905	64.8384117836504	0
+Arrival	97163673	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.58861847852893	64.83793155132302	0
+StateChange	100756406	{'': ''}	test_tank:9	Process:test	State:test2	-147.63425514899615	64.8315576465464	0
+Arrival	101375498	{'location': 'Runway'}	test_tank:9	Process:test	State:test2	-147.6009854232683	64.83780579843652	0
+StateChange	105338049	{'': ''}	test_tank:3	Process:test	State:test2	-147.63210198851138	64.83148608513018	0
+Arrival	105977208	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59833169808675	64.83846697691608	0
+StateChange	109998567	{'': ''}	test_tank:4	Process:test	State:test	-147.59144228004905	64.8384117836504	0
+StateChange	110764016	{'': ''}	test_tank:7	Process:test	State:test	-147.58861847852893	64.83793155132302	0
+StateChange	112424458	{'': ''}	test_tank:14	Process:test	State:test2	-147.594058464086	64.83813532282115	0
+Arrival	112543904	{'location': 'Runway'}	test_tank:14	Process:test	State:test2	-147.6009105016939	64.83749026876339	0
+StateChange	113090896	{'': ''}	test_tank:12	Process:test	State:test2	-147.59840901454527	64.83746943078157	0
+Arrival	113134796	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.59692805745476	64.83836732339729	0
+StateChange	115156406	{'': ''}	test_tank:9	Process:test	State:test	-147.6009854232683	64.83780579843652	0
+StateChange	119738049	{'': ''}	test_tank:3	Process:test	State:test3	-147.59833169808675	64.83846697691608	0
+StateChange	124738087	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.59833169808675	64.83846697691608	0
+Arrival	125390290	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.6291362739077	64.83905695699916	0
+StateChange	126571806	{'': ''}	test_tank:3	Process:test	State:test2	-147.6291362739077	64.83905695699916	0
+StateChange	126824458	{'': ''}	test_tank:14	Process:test	State:test	-147.6009105016939	64.83749026876339	0
+Arrival	127057471	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.60063335216762	64.83847446605063	0
+StateChange	127490896	{'': ''}	test_tank:12	Process:test	State:test3	-147.59692805745476	64.83836732339729	0
+StateChange	128524809	{'': ''}	test_tank:11	Process:test	State:test2	-147.63337078694713	64.8314704497323	0
+Arrival	129263031	{'location': 'Runway'}	test_tank:11	Process:test	State:test2	-147.59287780968032	64.83807398000671	0
+StateChange	134116878	{'': ''}	test_tank:12	Process:test	GoToRefuel	-147.59692805745476	64.83836732339729	0
+Arrival	134798441	{'location': 'refuel'}	test_tank:12	Process:test	GoToRefuel	-147.62893651829026	64.83995069555559	0
+StateChange	136100744	{'': ''}	test_tank:12	Process:test	State:test2	-147.62893651829026	64.83995069555559	0
+Arrival	136696170	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.59416174350702	64.83832077094515	0
+StateChange	138924667	{'': ''}	test_tank:10	Process:test	State:test2	-147.63301584352152	64.83145873118424	0
+StateChange	138954485	{'': ''}	test_tank:6	Process:test	State:test2	-147.63301396826927	64.83134400703906	0
+Arrival	139542480	{'location': 'Runway'}	test_tank:10	Process:test	State:test2	-147.60037891844763	64.83821121587371	0
+Arrival	139728014	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.59052173353538	64.83819356772402	0
+StateChange	140971806	{'': ''}	test_tank:3	Process:test	State:test3	-147.60063335216762	64.83847446605063	0
+StateChange	142924809	{'': ''}	test_tank:11	Process:test	State:test	-147.59287780968032	64.83807398000671	0
+StateChange	147536635	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.60063335216762	64.83847446605063	0
+Arrival	148139191	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.62904817849403	64.83934607081116	0
+StateChange	149948312	{'': ''}	test_tank:3	Process:test	State:test2	-147.62904817849403	64.83934607081116	0
+Arrival	150453520	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59967708321577	64.8375191193972	0
+StateChange	150500744	{'': ''}	test_tank:12	Process:test	State:test3	-147.59416174350702	64.83832077094515	0
+StateChange	153324667	{'': ''}	test_tank:10	Process:test	State:test3	-147.60037891844763	64.83821121587371	0
+StateChange	153354485	{'': ''}	test_tank:6	Process:test	State:test2	-147.59052173353538	64.83819356772402	0
+Arrival	153434362	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.5952144780445	64.83816525946861	0
+StateChange	155648564	{'': ''}	test_tank:5	Process:test	State:test2	-147.599243167227	64.83829613504693	0
+Arrival	155800210	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.59038496453803	64.83788845942169	0
+StateChange	156316272	{'': ''}	test_tank:2	Process:test	State:test2	-147.58951601238738	64.83767474718005	0
+Arrival	156334811	{'location': 'Runway'}	test_tank:2	Process:test	State:test2	-147.58996239686178	64.83725228901098	0
+StateChange	157033297	{'': ''}	test_tank:12	Process:test	GoToRefuel	-147.59416174350702	64.83832077094515	0
+Arrival	157769023	{'location': 'refuel'}	test_tank:12	Process:test	GoToRefuel	-147.62875172052995	64.83988530499377	0
+StateChange	158727795	{'': ''}	test_tank:10	Process:test	GoToRefuel	-147.60037891844763	64.83821121587371	0
+Arrival	159349349	{'location': 'refuel'}	test_tank:10	Process:test	GoToRefuel	-147.62964451998832	64.83934462474987	0
+StateChange	159367048	{'': ''}	test_tank:12	Process:test	State:test2	-147.62875172052995	64.83988530499377	0
+Arrival	160010625	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.59147994323044	64.83717294481154	0
+StateChange	160730151	{'': ''}	test_tank:10	Process:test	State:test2	-147.62964451998832	64.83934462474987	0
+Arrival	161411141	{'location': 'Runway'}	test_tank:10	Process:test	State:test2	-147.58970260661036	64.83833474831617	0
+StateChange	164348312	{'': ''}	test_tank:3	Process:test	State:test3	-147.59967708321577	64.8375191193972	0
+StateChange	167691434	{'': ''}	test_tank:8	Process:test	State:test2	-147.63453862202493	64.83122284324547	0
+StateChange	167754485	{'': ''}	test_tank:6	Process:test	State:test2	-147.5952144780445	64.83816525946861	0
+Arrival	167756841	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.59507613411324	64.8381679014142	0
+Arrival	168338887	{'location': 'Runway'}	test_tank:8	Process:test	State:test2	-147.59929689865277	64.83730717325476	0
+StateChange	168426119	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.59967708321577	64.8375191193972	0
+Arrival	169061555	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.62949892171108	64.8390645069528	0
+StateChange	170048564	{'': ''}	test_tank:5	Process:test	State:test3	-147.59038496453803	64.83788845942169	0
+VelocityChange	170048564	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:5	Process:test	State:test3	32.35171364336102	2.8888155567027303	0
+StateChange	170716272	{'': ''}	test_tank:2	Process:test	State:test3	-147.58996239686178	64.83725228901098	0
+VelocityChange	170716272	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:2	Process:test	State:test3	21.12745611856319	1.8866087546111963	0
+StateChange	170774363	{'': ''}	test_tank:3	Process:test	State:test2	-147.62949892171108	64.8390645069528	0
+Arrival	171293249	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59932472652076	64.83721214856203	0
+StateChange	173767048	{'': ''}	test_tank:12	Process:test	State:test3	-147.59147994323044	64.83717294481154	0
+StateChange	175130151	{'': ''}	test_tank:10	Process:test	State:test	-147.58970260661036	64.83833474831617	0
+StateChange	175955171	{'': ''}	test_tank:5	Process:test	GoToRefuel	32.35171364336102	2.8888155567027303	0
+StateChange	176633142	{'': ''}	test_tank:2	Process:test	GoToRefuel	21.12745611856319	1.8866087546111963	0
+StateChange	176914267	{'': ''}	test_tank:13	Process:test	State:test2	-147.60091632168687	64.83807761307528	0
+Arrival	176943407	{'location': 'Runway'}	test_tank:13	Process:test	State:test2	-147.59920976751664	64.83813650533328	0
+StateChange	178620902	{'': ''}	test_tank:5	Process:test	State:test2	32.35171364336102	2.8888155567027303	0
+StateChange	179307244	{'': ''}	test_tank:2	Process:test	State:test2	21.12745611856319	1.8866087546111963	0
+StateChange	179871326	{'': ''}	test_tank:12	Process:test	GoToRefuel	-147.59147994323044	64.83717294481154	0
+Arrival	180682683	{'location': 'refuel'}	test_tank:12	Process:test	GoToRefuel	-147.62960040293183	64.83899103121445	0
+StateChange	181722570	{'': ''}	test_tank:12	Process:test	State:test2	-147.62960040293183	64.83899103121445	0
+StateChange	182091434	{'': ''}	test_tank:8	Process:test	State:test3	-147.59929689865277	64.83730717325476	0
+StateChange	182154485	{'': ''}	test_tank:6	Process:test	State:test3	-147.59507613411324	64.8381679014142	0
+Arrival	182232106	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.59974091854085	64.83806906857335	0
+StateChange	185174363	{'': ''}	test_tank:3	Process:test	State:test3	-147.59932472652076	64.83721214856203	0
+StateChange	186828271	{'': ''}	test_tank:6	Process:test	GoToRefuel	-147.59507613411324	64.8381679014142	0
+Arrival	187548177	{'location': 'refuel'}	test_tank:6	Process:test	GoToRefuel	-147.6289438062847	64.8396092373848	0
+StateChange	188444683	{'': ''}	test_tank:8	Process:test	GoToRefuel	-147.59929689865277	64.83730717325476	0
+Arrival	189101768	{'location': 'refuel'}	test_tank:8	Process:test	GoToRefuel	-147.62976790597796	64.83988074769087	0
+StateChange	189258915	{'': ''}	test_tank:6	Process:test	State:test2	-147.6289438062847	64.8396092373848	0
+Arrival	189966369	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.5877723457734	64.83717776409067	0
+StateChange	190608466	{'': ''}	test_tank:8	Process:test	State:test2	-147.62976790597796	64.83988074769087	0
+Arrival	191254632	{'location': 'Runway'}	test_tank:8	Process:test	State:test2	-147.59227341606336	64.83734460289877	0
+StateChange	191314267	{'': ''}	test_tank:13	Process:test	State:test3	-147.59920976751664	64.83813650533328	0
+VelocityChange	191314267	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:13	Process:test	State:test3	8.611922514963554	0.7689604726191434	0
+StateChange	192001310	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.59932472652076	64.83721214856203	0
+Arrival	192649162	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.62955944303712	64.83929632017364	0
+StateChange	193020902	{'': ''}	test_tank:5	Process:test	State:test3	32.35171364336102	2.8888155567027303	0
+VelocityChange	193020902	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:5	Process:test	State:test3	10.837884734358564	10.295430049982352	0
+StateChange	193707244	{'': ''}	test_tank:2	Process:test	State:test	21.12745611856319	1.8866087546111963	0
+StateChange	193851089	{'': ''}	test_tank:3	Process:test	State:test2	-147.62955944303712	64.83929632017364	0
+Arrival	194553205	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.58854124392172	64.83742744684963	0
+StateChange	196122570	{'': ''}	test_tank:12	Process:test	State:test3	-147.59974091854085	64.83806906857335	0
+StateChange	197370759	{'': ''}	test_tank:5	Process:test	GoToRefuel	10.837884734358564	10.295430049982352	0
+StateChange	198103890	{'': ''}	test_tank:13	Process:test	GoToRefuel	8.611922514963554	0.7689604726191434	0
+StateChange	199325105	{'': ''}	test_tank:5	Process:test	State:test2	10.837884734358564	10.295430049982352	0
+StateChange	200575169	{'': ''}	test_tank:13	Process:test	State:test2	8.611922514963554	0.7689604726191434	0
+StateChange	202644957	{'': ''}	test_tank:12	Process:test	GoToRefuel	-147.59974091854085	64.83806906857335	0
+Arrival	203276310	{'location': 'refuel'}	test_tank:12	Process:test	GoToRefuel	-147.62943331312835	64.83937144996077	0
+StateChange	203658915	{'': ''}	test_tank:6	Process:test	State:test3	-147.5877723457734	64.83717776409067	0
+StateChange	204860266	{'': ''}	test_tank:12	Process:test	State:test2	-147.62943331312835	64.83937144996077	0
+StateChange	205008466	{'': ''}	test_tank:8	Process:test	State:test	-147.59227341606336	64.83734460289877	0
+Arrival	205583865	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.5870958420904	64.83771857515558	0
+StateChange	208251089	{'': ''}	test_tank:3	Process:test	State:test3	-147.58854124392172	64.83742744684963	0
+StateChange	210593642	{'': ''}	test_tank:6	Process:test	GoToRefuel	-147.5877723457734	64.83717776409067	0
+Arrival	211493554	{'location': 'refuel'}	test_tank:6	Process:test	GoToRefuel	-147.62982616597918	64.83992415757548	0
+StateChange	211946846	{'': ''}	test_tank:7	Process:test	State:test2	-147.58861847852893	64.83793155132302	0
+Arrival	212120825	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.59881222929062	64.83825521273023	0
+StateChange	212742861	{'': ''}	test_tank:6	Process:test	State:test2	-147.62982616597918	64.83992415757548	0
+Arrival	213280203	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.59846830115782	64.83836110471809	0
+StateChange	213725105	{'': ''}	test_tank:5	Process:test	State:test3	10.837884734358564	10.295430049982352	0
+VelocityChange	213725105	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:5	Process:test	State:test3	13.410072331961208	9.409897213385987	0
+StateChange	214011684	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.58854124392172	64.83742744684963	0
+Arrival	214888603	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.62976807053388	64.83929279667007	0
+StateChange	214975169	{'': ''}	test_tank:13	Process:test	State:test3	8.611922514963554	0.7689604726191434	0
+VelocityChange	214975169	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:13	Process:test	State:test3	3.640443964278845	2.8079863074149425	0
+StateChange	216176310	{'': ''}	test_tank:3	Process:test	State:test2	-147.62976807053388	64.83929279667007	0
+Arrival	216837745	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59112547819188	64.83753590925032	0
+StateChange	218113204	{'': ''}	test_tank:5	Process:test	GoToRefuel	13.410072331961208	9.409897213385987	0
+StateChange	218165992	{'': ''}	test_tank:4	Process:test	State:test2	-147.59144228004905	64.8384117836504	0
+Arrival	218215314	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.5889882591295	64.83775642596356	0
+StateChange	219000187	{'': ''}	test_tank:13	Process:test	GoToRefuel	3.640443964278845	2.8079863074149425	0
+StateChange	219260266	{'': ''}	test_tank:12	Process:test	State:test3	-147.5870958420904	64.83771857515558	0
+StateChange	220642360	{'': ''}	test_tank:5	Process:test	State:test2	13.410072331961208	9.409897213385987	0
+StateChange	221062759	{'': ''}	test_tank:13	Process:test	State:test2	3.640443964278845	2.8079863074149425	0
+StateChange	225624361	{'': ''}	test_tank:12	Process:test	State:test2	-147.5870958420904	64.83771857515558	0
+Arrival	225827169	{'location': 'Runway'}	test_tank:12	Process:test	State:test2	-147.59900631351573	64.83787042091592	0
+StateChange	226346846	{'': ''}	test_tank:7	Process:test	State:test2	-147.59881222929062	64.83825521273023	0
+Arrival	226367964	{'location': 'Runway'}	test_tank:7	Process:test	State:test2	-147.59790959623194	64.83789323532163	0
+StateChange	227142861	{'': ''}	test_tank:6	Process:test	State:test3	-147.59846830115782	64.83836110471809	0
+StateChange	230576310	{'': ''}	test_tank:3	Process:test	State:test3	-147.59112547819188	64.83753590925032	0
+StateChange	231888251	{'': ''}	test_tank:6	Process:test	GoToRefuel	-147.59846830115782	64.83836110471809	0
+Arrival	232552765	{'location': 'refuel'}	test_tank:6	Process:test	GoToRefuel	-147.62973282778472	64.83968052093505	0
+StateChange	232565992	{'': ''}	test_tank:4	Process:test	State:test3	-147.5889882591295	64.83775642596356	0
+VelocityChange	232565992	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:4	Process:test	State:test3	54.30817843890736	4.849448767096458	0
+StateChange	232762816	{'': ''}	test_tank:9	Process:test	State:test2	-147.6009854232683	64.83780579843652	0
+Arrival	232914138	{'location': 'Runway'}	test_tank:9	Process:test	State:test2	-147.5921369113354	64.83817433069137	0
+StateChange	234361636	{'': ''}	test_tank:6	Process:test	State:test2	-147.62973282778472	64.83968052093505	0
+Arrival	235019970	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.59152850859562	64.83710740872631	0
+StateChange	235042360	{'': ''}	test_tank:5	Process:test	State:test2	13.410072331961208	9.409897213385987	0
+StateChange	235462759	{'': ''}	test_tank:13	Process:test	State:test	3.640443964278845	2.8079863074149425	0
+StateChange	236834016	{'': ''}	test_tank:4	Process:test	GoToRefuel	54.30817843890736	4.849448767096458	0
+StateChange	236924014	{'': ''}	test_tank:3	Process:test	GoToRefuel	-147.59112547819188	64.83753590925032	0
+Arrival	237722937	{'location': 'refuel'}	test_tank:3	Process:test	GoToRefuel	-147.6286939279694	64.83920134500998	0
+StateChange	238774213	{'': ''}	test_tank:4	Process:test	State:test2	54.30817843890736	4.849448767096458	0
+StateChange	238815738	{'': ''}	test_tank:3	Process:test	State:test2	-147.6286939279694	64.83920134500998	0
+Arrival	239514597	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.58777434377097	64.83774933144403	0
+StateChange	240024361	{'': ''}	test_tank:12	Process:test	State:test	-147.59900631351573	64.83787042091592	0
+StateChange	240746846	{'': ''}	test_tank:7	Process:test	State:test3	-147.59790959623194	64.83789323532163	0
+VelocityChange	240746846	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:7	Process:test	State:test3	54.61070775034235	4.87627473962125	0
+StateChange	245952310	{'': ''}	test_tank:7	Process:test	GoToRefuel	54.61070775034235	4.87627473962125	0
+StateChange	247162816	{'': ''}	test_tank:9	Process:test	State:test3	-147.5921369113354	64.83817433069137	0
+VelocityChange	247162816	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:9	Process:test	State:test3	56.324498425671536	5.029350547308215	0
+StateChange	248172096	{'': ''}	test_tank:7	Process:test	State:test2	54.61070775034235	4.87627473962125	0
+StateChange	248761636	{'': ''}	test_tank:6	Process:test	State:test3	-147.59152850859562	64.83710740872631	0
+StateChange	249442360	{'': ''}	test_tank:5	Process:test	State:test3	13.410072331961208	9.409897213385987	0
+VelocityChange	249442360	{'location': 'refuel'}	test_tank:5	Process:test	State:test3	-4.918416751641493	1.6929061226202244	0
+StateChange	250858634	{'': ''}	test_tank:9	Process:test	GoToRefuel	56.324498425671536	5.029350547308215	0
+StateChange	253174213	{'': ''}	test_tank:4	Process:test	State:test	54.30817843890736	4.849448767096458	0
+StateChange	253215738	{'': ''}	test_tank:3	Process:test	State:test3	-147.58777434377097	64.83774933144403	0
+StateChange	253330026	{'': ''}	test_tank:9	Process:test	State:test2	56.324498425671536	5.029350547308215	0
+StateChange	255363690	{'': ''}	test_tank:6	Process:test	GoToRefuel	-147.59152850859562	64.83710740872631	0
+StateChange	256064831	{'': ''}	test_tank:5	Process:test	GoToRefuel	-4.918416751641493	1.6929061226202244	0
+Arrival	256160745	{'location': 'refuel'}	test_tank:6	Process:test	GoToRefuel	-147.62888172196122	64.83922409100813	0
+StateChange	257577265	{'': ''}	test_tank:6	Process:test	State:test2	-147.62888172196122	64.83922409100813	0
+StateChange	258036245	{'': ''}	test_tank:5	Process:test	State:test2	-4.918416751641493	1.6929061226202244	0
+Arrival	258060780	{'location': 'Runway'}	test_tank:6	Process:test	State:test2	-147.60077223963444	64.83747450367657	0
 SimEnd	259321000	{'': ''}	SYSTEM
