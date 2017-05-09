@@ -1,6 +1,6 @@
 import datetime
-#import requests
-from urllib.request import Request as requests
+import requests
+#from urllib.request import Request as requests
 #from urllib.parse import urlencode
 
 class log:
@@ -53,14 +53,15 @@ class log:
     def post_event_to_server(event):
         payload = {'key1':'value1','key2':'value2'}
         
-        try:
+        if True:
+		#try:
             d = {'x':float(event.source.x),'y':float(event.source.y),'id':int(event.source.ID),'name':str(event.source.name),
             'process':str(event.source.process.name),'state':str(event.source.state.name),'time':int(event.time)}
             r = requests.post(log.server_uri,data=d)#event.source.__dict__)#data=event.__dict__)
             #print(r)
             #print(r.status_code,r.reason)
             #print(r.text)
-        except: pass
+        #except: pass
 
     @staticmethod
     def unload_events():
