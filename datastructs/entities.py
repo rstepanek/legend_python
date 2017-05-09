@@ -39,7 +39,7 @@ class Entity:
     def location(self): return (self.x,self.y,self.alt)
 
     def update_location(self,loc):
-        (self.x,self.y,self.alt)
+        (self.x,self.y,self.alt) = loc
 
     #a factory method for creating entities from a template entity
     @staticmethod
