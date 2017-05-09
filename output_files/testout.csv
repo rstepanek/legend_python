@@ -1,19 +1,19 @@
-2017-05-08 22:30:11.591514	INFO	SIM_DRIVER	Moving to next phase: Loading
-2017-05-08 22:30:11.592486	INFO	KML_Loader	Loading input_files/scenario.kml....
-2017-05-08 22:30:11.594488	INFO	KML_Loader	Successfully loaded kml from input_files/scenario.kml
-2017-05-08 22:30:11.594488	INFO	States_Loader	Loading input_files/test_state.txt....
-2017-05-08 22:30:11.595488	INFO	States_Loader	Successfully loaded states from input_files/test_state.txt
-2017-05-08 22:30:11.596489	INFO	Process_Loader	Loading input_files/test_process.txt....
-2017-05-08 22:30:11.597490	INFO	Process_Loader	Successfully loaded processes from input_files/test_process.txt
-2017-05-08 22:30:11.597490	INFO	Entity_Loader	Loading input_files/test_entity.txt....
-2017-05-08 22:30:11.598490	INFO	Entity_Loader	Successfully loaded entities from input_files/test_entity.txt
-2017-05-08 22:30:11.600493	INFO	Event_Loader	Loading input_files/event_list.txt....
-2017-05-08 22:30:11.601493	INFO	Event_Loader	Successfully loaded events from input_files/event_list.txt
-2017-05-08 22:30:11.602493	INFO	SIM_DRIVER	Moving to next phase: Verifying
-2017-05-08 22:30:11.602493	INFO	Geometry_System	Loaded 3 Areas
-2017-05-08 22:30:11.603494	INFO	State_System	Loaded 3 States
-2017-05-08 22:30:11.603494	INFO	Process_System	Loaded 1 Processes
-2017-05-08 22:30:11.604496	INFO	Entity_System	Loaded 1 Entity types
-2017-05-08 22:30:11.604496	INFO	Event_System	Loaded 4 Events
-2017-05-08 22:30:11.605495	INFO	SIM_DRIVER	Moving to next phase: Executing
-2017-05-08 22:30:11.635518	INFO		Simulation complete.
+2017-05-08 22:38:41.359020	INFO	SIM_DRIVER	Moving to next phase: Loading
+2017-05-08 22:38:41.359992	INFO	KML_Loader	Loading input_files/scenario.kml....
+2017-05-08 22:38:41.363993	INFO	KML_Loader	Successfully loaded kml from input_files/scenario.kml
+2017-05-08 22:38:41.363993	INFO	States_Loader	Loading input_files/test_state.txt....
+2017-05-08 22:38:41.365997	INFO	States_Loader	Successfully loaded states from input_files/test_state.txt
+2017-05-08 22:38:41.366995	INFO	Process_Loader	Loading input_files/test_process.txt....
+2017-05-08 22:38:41.368998	INFO	Process_Loader	Successfully loaded processes from input_files/test_process.txt
+2017-05-08 22:38:41.369998	INFO	Entity_Loader	Loading input_files/test_entity.txt....
+2017-05-08 22:38:41.370998	INFO	Entity_Loader	Successfully loaded entities from input_files/test_entity.txt
+2017-05-08 22:38:41.370998	INFO	Event_Loader	Loading input_files/event_list.txt....
+2017-05-08 22:38:41.372000	INFO	Event_Loader	Successfully loaded events from input_files/event_list.txt
+2017-05-08 22:38:41.372000	INFO	SIM_DRIVER	Moving to next phase: Verifying
+2017-05-08 22:38:41.374027	INFO	Geometry_System	Loaded 3 Areas
+2017-05-08 22:38:41.375001	INFO	State_System	Loaded 3 States
+2017-05-08 22:38:41.376003	INFO	Process_System	Loaded 1 Processes
+2017-05-08 22:38:41.377004	INFO	Entity_System	Loaded 1 Entity types
+2017-05-08 22:38:41.378005	INFO	Event_System	Loaded 4 Events
+2017-05-08 22:38:41.380005	INFO	SIM_DRIVER	Moving to next phase: Executing
+2017-05-08 22:38:41.408024	INFO		Simulation complete.
