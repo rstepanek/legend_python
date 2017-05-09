@@ -1,25 +1,26 @@
 SimStart	1	{'': ''}	SYSTEM
-Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.6318893564622, 'y': 64.83169922415605, 'alt': 0}	SYSTEM
-InitializeState	1	{'': ''}	test_tank:2	Process:test	State:test	-147.6318893564622	64.83169922415605	0
-Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.59490672508161, 'y': 64.83825419143957, 'alt': 0}	SYSTEM
-Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.59315589158408, 'y': 64.8372504506404, 'alt': 0}	SYSTEM
-InitializeState	3	{'': ''}	test_tank:3	Process:test	State:test2	-147.59490672508161	64.83825419143957	0
-InitializeState	3	{'': ''}	test_tank:4	Process:test	State:test	-147.59315589158408	64.8372504506404	0
-Spawn	120000	{'entity': 'test_tank', 'location': 'Military Airport', 'x': -147.59359968170935, 'y': 64.83771172920741, 'alt': 0}	SYSTEM
-InitializeState	120000	{'': ''}	test_tank:5	Process:test	State:test	-147.59359968170935	64.83771172920741	0
-StateChange	14400003	{'': ''}	test_tank:3	Process:test	State:test3	-147.59490672508161	64.83825419143957	0
-StateChange	115286061	{'': ''}	test_tank:3	Process:test	State:test	-147.59490672508161	64.83825419143957	0
-StateChange	135208479	{'': ''}	test_tank:2	Process:test	State:test2	-147.6318893564622	64.83169922415605	0
-Arrival	135909769	{'location': 'Runway'}	test_tank:2	Process:test	State:test2	-147.6318893564622	64.83169922415605	0
-StateChange	149608479	{'': ''}	test_tank:2	Process:test	State:test3	-147.6318893564622	64.83169922415605	0
-StateChange	157421419	{'': ''}	test_tank:4	Process:test	State:test2	-147.59315589158408	64.8372504506404	0
-Arrival	157459436	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.59315589158408	64.8372504506404	0
-StateChange	159495545	{'': ''}	test_tank:5	Process:test	State:test2	-147.59359968170935	64.83771172920741	0
-Arrival	159521293	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.59359968170935	64.83771172920741	0
-StateChange	171821419	{'': ''}	test_tank:4	Process:test	State:test	-147.59315589158408	64.8372504506404	0
-StateChange	173895545	{'': ''}	test_tank:5	Process:test	State:test3	-147.59359968170935	64.83771172920741	0
-StateChange	232549377	{'': ''}	test_tank:3	Process:test	State:test2	-147.59490672508161	64.83825419143957	0
-Arrival	232612838	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59490672508161	64.83825419143957	0
-StateChange	246949377	{'': ''}	test_tank:3	Process:test	State:test3	-147.59490672508161	64.83825419143957	0
-VelocityChange	246949377	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:3	Process:test	State:test3	-147.59490672508161	64.83825419143957	0
+Spawn	1	{'entity': 'test_tank', 'location': 'Hangar', 'x': -147.63220068833263, 'y': 64.83162436581189, 'alt': 0}	SYSTEM
+InitializeState	1	{'': ''}	test_tank:2	Process:test	State:test	-147.63220068833263	64.83162436581189	0
+Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.59583743083294, 'y': 64.83839575201846, 'alt': 0}	SYSTEM
+Spawn	3	{'entity': 'test_tank', 'location': 'Runway', 'x': -147.5913766720313, 'y': 64.8383718579755, 'alt': 0}	SYSTEM
+InitializeState	3	{'': ''}	test_tank:3	Process:test	State:test2	-147.59583743083294	64.83839575201846	0
+InitializeState	3	{'': ''}	test_tank:4	Process:test	State:test	-147.5913766720313	64.8383718579755	0
+Spawn	120000	{'entity': 'test_tank', 'location': 'Military Airport', 'x': -147.58712979284311, 'y': 64.83835588690481, 'alt': 0}	SYSTEM
+InitializeState	120000	{'': ''}	test_tank:5	Process:test	State:test	-147.58712979284311	64.83835588690481	0
+StateChange	14400003	{'': ''}	test_tank:3	Process:test	State:test	-147.59583743083294	64.83839575201846	0
+StateChange	125114242	{'': ''}	test_tank:2	Process:test	State:test2	-147.63220068833263	64.83162436581189	0
+Arrival	125739628	{'location': 'Runway'}	test_tank:2	Process:test	State:test2	-147.63220068833263	64.83162436581189	0
+StateChange	125989060	{'': ''}	test_tank:4	Process:test	State:test2	-147.5913766720313	64.8383718579755	0
+Arrival	126031106	{'location': 'Runway'}	test_tank:4	Process:test	State:test2	-147.5913766720313	64.8383718579755	0
+StateChange	139514242	{'': ''}	test_tank:2	Process:test	State:test	-147.63220068833263	64.83162436581189	0
+StateChange	140389060	{'': ''}	test_tank:4	Process:test	State:test3	-147.5913766720313	64.8383718579755	0
+StateChange	149791222	{'': ''}	test_tank:3	Process:test	State:test2	-147.59583743083294	64.83839575201846	0
+Arrival	149825633	{'location': 'Runway'}	test_tank:3	Process:test	State:test2	-147.59583743083294	64.83839575201846	0
+StateChange	164191222	{'': ''}	test_tank:3	Process:test	State:test3	-147.59583743083294	64.83839575201846	0
+VelocityChange	164191222	{'x': '123', 'y': '89', 'alt': '0'}	test_tank:3	Process:test	State:test3	-147.59583743083294	64.83839575201846	0
+StateChange	171954568	{'': ''}	test_tank:5	Process:test	State:test2	-147.58712979284311	64.83835588690481	0
+Arrival	171982567	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.58712979284311	64.83835588690481	0
+StateChange	186354568	{'': ''}	test_tank:5	Process:test	State:test2	-147.58712979284311	64.83835588690481	0
+Arrival	186567576	{'location': 'Runway'}	test_tank:5	Process:test	State:test2	-147.58712979284311	64.83835588690481	0
+StateChange	200754568	{'': ''}	test_tank:5	Process:test	State:test	-147.58712979284311	64.83835588690481	0
 SimEnd	259321000	{'': ''}	SYSTEM

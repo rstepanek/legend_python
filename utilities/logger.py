@@ -1,6 +1,6 @@
 import datetime
-import requests
-#from urllib.request import Request
+#import requests
+from urllib.request import Request as requests
 #from urllib.parse import urlencode
 
 class log:
