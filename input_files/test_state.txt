@@ -8,10 +8,15 @@ Duration = 4hrs
 Directives = GoTo(location=Runway)
 Speed = 10
 
+Name = GoToRefuel
+Duration = 30m-45m
+Directives = GoTo(location=refuel)
+Speed = 5 mph
+
 Name = State:test3
 Require_Tags = testing,one
 Banned_Tags = production
-Duration = 1Days-2 Days
+Duration = 1 hours - 2 hours
 Yields = successful test + 1; split test = 10
 Cost = None
 PoolRestrictions = None

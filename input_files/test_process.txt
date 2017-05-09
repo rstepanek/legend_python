@@ -7,8 +7,9 @@ State:test2 -- test_message1;test_message2 -- 1.00 => State:test2
 State:test2 -- 0.30  => State:test
 State:test2 -- 0.10  => State:test2
 State:test2 -- 0.60  => State:test3
-State:test3 -- 0.95  => State:test
+State:test3 -- 0.95  => GoToRefuel
 State:test3 -- 0.05  => State:test2
+GoToRefuel -- 1.00 => State:test2
 //tokens are =>,--
 //There are 3 types of state transitions
 //1)Entrance transitions denoted by "prob->state" i.e. 0.80 -> State:test
